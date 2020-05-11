@@ -1,3 +1,46 @@
 body {
-    background-image: url('https://static.wixstatic.com/media/87b4fe_b80130286a8e4a0b8a4a0e68e62c624f~mv2.gif');
+    background-image: url('./contato.gif');
 }
+
+.imgPerfil {
+
+    padding-left: 100px;
+}
+menu {
+    background-color: none;
+    
+  }
+  
+  .menu li {
+    list-style:none;
+    
+  } 
+  
+  .menu ul{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  a {
+      color: rgb(246, 252, 252);
+      text-decoration: none;
+    }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-title {
+    color: whitesmoke;
+    text-align: left;
+  }
+  
+  .site-subtitle{
+    color: beige;
+    font-style: italic;
+    text-align: left;
+  }
+  
+  .MeuGit{
+      text-size-adjust: 20opx;
+  }
