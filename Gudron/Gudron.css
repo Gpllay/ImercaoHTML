@@ -1,0 +1,42 @@
+/* Aula inicial :D */
+body {
+    background-image: url('./Background.gif');
+    background-size: 1920px 1080px;
+    font-family: Arial;
+    height:100vh
+  }
+  
+  .menu {
+    background-color: none;
+    
+  }
+  
+  .menu li {
+    list-style:none;
+    
+  } 
+  
+  .menu ul{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  a {
+      color: rgb(246, 252, 252);
+      text-decoration: none;
+    }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-title {
+    color: whitesmoke;
+    text-align: left;
+  }
+  
+  .site-subtitle{
+    color: beige;
+    font-style: italic;
+    text-align: left;
+  }
