@@ -19,15 +19,23 @@ body {
   .menu ul{
     display: flex;
     justify-content: space-around;
+    margin-top: 30px;
+    flex-wrap: wrap;
   }
   
   a {
       color: rgb(246, 252, 252);
       text-decoration: none;
+      font-family: 'Electrolize', cursive;
+      background-color: rgba(30, 221, 62, 0.616);
+      padding: 10px;
+      border-radius: 10px;
+
     }
   
   a:hover {
     text-decoration: underline;
+    background-color: rgba(226,125,125,0.7);
   }
   
   .site-title {
